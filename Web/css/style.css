@@ -1,0 +1,126 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    background-color: #ede8f1;
+}
+
+nav {
+    background-color: rgba(57, 57, 87, 0.788);
+    font-family: 'Glass Antiqua', cursive;
+}
+
+.title {
+    position: relative;
+    margin-left: 43%;
+}
+
+nav a .logo {
+    color: #181728;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-left: 0.7rem;
+    padding-top: 0.9rem;
+    position: absolute;
+}
+
+thead {
+    background-color: #192b40e6;
+    color: floralwhite;
+}
+
+.table thead th {
+    font-weight: 500;
+}
+
+table tbody tr:hover {
+    background-color: rgb(231, 230, 228);
+    cursor: pointer;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #a1adb8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #C2CDD2;
+}
+
+
+/* -------------job section  -------------------*/
+
+.btn {
+    background-color: rgba(57, 57, 87, 0.788);
+    color: floralwhite;
+    font-size: 1.5rem;
+    margin: 1rem 1.8rem;
+}
+
+.btn:hover {
+    background-color: rgba(57, 57, 87, 0.534);
+    color: floralwhite;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgba(57, 57, 87, 0.883);
+}
+
+form {
+    border: 2px solid #a1adb8;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(190, 178, 202);
+}
+
+.form-group {
+    padding: 0.5rem 2.5rem;
+}
+
+label {
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+input {
+    font-family: cursive;
+}
+
+.form-control {
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+}
+
+@media (max-width:322px) {
+    .title {
+        margin-left: 38%;
+    }
+    nav {
+        width: 114vw;
+    }
+}
+
+@media (max-width:376px) {
+    .title {
+        margin-left: 35%;
+    }
+}
+
+@media (max-width:426px) {
+    .title {
+        margin-left: 38%;
+    }
+}
